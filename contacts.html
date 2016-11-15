@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Ulnanotech - Контакты</title>
+  <link href="assets/img/favicon.ico" rel="shortcut icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <script src="assets/js/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+<header>
+  <div class="header-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-2">
+          <div class="header-top__language">
+            <a href="#" class="header-top__language-en">EN</a><!--
+         --><a href="#" class="header-top__language-ru active">RU</a>
+          </div>
+        </div>
+        <div class="col-xs-10">
+          <div class="header-top__contact">
+            <ul>
+            <li class="header-top__contact-call">
+              <a href="contacts.html" class="button button--antiman2">Напишите нам</a>
+            </li>
+            <li class="header-top__contact-phone">
+              <span class="hidden-xs">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                +7 (8422) 27 24 27
+              </span>
+              <a class="visible-xs-inline" href="tel:+78422272427">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                +7 (8422) 27 24 27
+              </a>
+            </li>
+            <li class="header-top__contact-email">
+              <a href="mailto:projects@ulnanotech.com">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                projects@ulnanotech.com
+              </a>
+            </li>
+            <li class="header-top__contact-soc-links">
+              <a href="https://www.facebook.com/ulnanotech" target="_blank">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="header-top__contact-soc-links">
+              <a href="https://www.youtube.com/channel/UCUvwti-pYUsDUHHK3tmcrgg" target="_blank">
+                <i class="fa fa-youtube-square" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="header-top__contact-soc-links">
+              <a href="https://vk.com/ulnanotech" target="_blank">
+                <i class="fa fa-vk" aria-hidden="true"></i>
+              </a>
+            </li>
+            </ul>
+          </div>
+        </div><!-- col -->
+      </div><!-- row -->
+    </div><!-- container -->
+  </div><!--header-top-->
+  <div class="header-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 header-bottom__logo">
+          <a href="index.html">
+            <img src="assets/img/logo-ulnanotech.png" alt="logo-ulnanotech">
+          </a>
+          <a href="http://www.rusnano.com/" target="_blank">
+            <img src="assets/img/logo-rosnano.png" alt="logo-rosnano">
+          </a>
+        </div>
+        <div class="col-xs-6 hidden-sm hidden-md hidden-lg">
+          <button class="mobile-nav-button">
+            <div id="nav-icon3">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 main-nav">
+          <nav>
+            <ul class="main-nav__menu">
+              <li class="main-nav__item">
+                <a href="about.html">О наноцентре</a>
+                <ul class="main-nav__dropdown-menu">
+                  <li class="main-nav__dropdown-menu-item">
+                    <a href="nanocenters.html">Сеть наноцентров</a>
+                  </li>
+                  <li class="main-nav__dropdown-menu-item">
+                    <a href="infrastructure.html">Инфраструктура</a>
+                  </li>
+                  <li class="main-nav__dropdown-menu-item">
+                    <a href="directors.html">Руководство</a>
+                  </li>
+                  <li class="main-nav__dropdown-menu-item">
+                    <a href="vacancies.html">Вакансии</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="main-nav__item">
+                <a href="projects.html">Проекты</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="news.html">Новости</a>
+              </li>
+              <li class="main-nav__item main-nav__item--active">
+                <a href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div><!--row-->
+    </div><!--container-->
+  </div>
+</header>
+<div class="page-title page-title--contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+             <h1>Контакты</h1>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="contact">
+  <section class="contact__feedback">
+    <div class="container">
+      <div class="row">
+        <a name="form"></a>
+        <div class="col-sm-7 contact__feedback-form">
+          <b>Напишите нам</b>
+          <form action="" method="post">
+            <label for ="contact-form-name" style="font-size:0;">name</label>
+            <span class="error"></span>
+            <input id="contact-form-name" type="text" placeholder="ФИО *" name="name" required>
+            <label for="contact-form-email" style="font-size:0;">email</label>
+            <span class="error"></span>
+            <input id="contact-form-email" type="text" placeholder="Email *" name="email" required>
+            <label for="contact-form-message" style="font-size:0;">message</label>
+            <span class="error"></span>
+            <textarea name="message" value="" placeholder="Текст сообщения *" required></textarea>
+            <button type="submit" class="button button--antiman">Отправить</button>
+          </form>
+        </div>
+        <div class="col-sm-5 contact__feedback-content">
+          <b>Добро пожаловать</b>
+          <span class="contact__feedback-content-intro">Если Вы хотите предложить нам свой проект или сделать предложение Вы можете связаться с нами по указанным ниже контактным данным, а так же посмотреть как можно проехать к нам или оставить сообщение.</span>
+          <b>Адрес</b>
+          <div class="contact__feedback-content-data">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span>432072, г. Ульяновск, 44-й проезд Инженерный, дом 9</span>
+          </div>
+          <div class="contact__feedback-content-data">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>+7 (8422) 27-24-27</span>
+          </div>
+          <div class="contact__feedback-content-data">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <span>
+              <a href="mailto:projects@ulnanotech.com">projects@ulnanotech.com</a>
+            </span>
+            <br>
+            <br>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <span>
+              <a href="mailto:job@ulnanotech.com">job@ulnanotech.com - по вопросам трудоустройства</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact__route">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 contact__route-item">
+          <img src="assets/img/route1.png" alt="">
+          <div class="contact__route-item-link btn-route" id="btn1" data-lat="54.413720" data-lng="48.798542">
+            Построить маршрут от <br>
+            <span>Аэропорта “Восточный”</span>
+          </div>
+          <div class="contact__route-item-link btn-route" id="btn2" data-lat="54.287004" data-lng="48.233669">
+            Построить маршрут от <br>
+            <span>Аэропорта “Баратаевка”</span></div>
+        </div>
+        <div class="col-xs-12 col-sm-6 contact__route-item">
+          <img src="assets/img/route2.png" alt="">
+          <div class="contact__route-item-link btn-route" id="btn3" data-lat="54.271424" data-lng="48.322307">
+            Построить маршрут от <br>
+            <span>Ж/д вокзала “Центральный”</span>
+          </div>
+          <div class="contact__route-item-link btn-route" id="btn4" data-lat="54.335963" data-lng="48.536643">
+            Построить маршрут от <br>
+            <span>Ж/д вокзала “Верхняя терраса”</span>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="maps" id="maps"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<footer>
+    <div class="container footer-bottom">
+      <div class="row">
+        <div class="col-xs-4 col-sm-4">&copy; Copyright 2016</div>
+        <div class="col-xs-4 col-sm-4 developer">
+            <a href="http://ixpert.pro" target="_blank">
+            Разработано в
+             <img style="position: relative;bottom: 2px;" src="assets/img/logoIxpertWhite.png" alt="">
+            </a>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+            Все права защищены
+        </div>
+      </div>
+    </div>
+</footer>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/contact-map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAwP0YTnTh423qsKsB-2mQEbLL7PJxePYI&sensor=false&signed_in=true&callback=initMap" async defer></script>
+</body>
+</html>
